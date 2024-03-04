@@ -5,10 +5,19 @@
         android:id="@+id/navigation_form_search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:title="Search" />
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="Localiser" />
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_home" />
+        android:title="Accueil" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:iconTint="#FFFFFF"
+        android:title="Compte" />
+
+
 
 </menu>
